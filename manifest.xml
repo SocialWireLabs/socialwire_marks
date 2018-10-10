@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+ 	<name>Socialwire Marks</name>
+	<id>socialwire_marks</id>
+	<author>Sergio Herrería Alonso</author>
+	<version>1.10</version>
+	<blurb>Socialwire Marks</blurb>
+	<description>Socialwire Marks</description>
+	<website>http://labredes.det.uvigo.es</website>
+	<copyright>© Copyright Laboratorio de Redes 2012</copyright>
+	<license>GNU Public License version 3</license>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.10</version>
+	</requires>
+        <requires>
+		<type>plugin</type>
+		<name>group_tools</name>
+	</requires>
+    <requires>
+		<type>plugin</type>
+		<name>labredes_subgroups</name>
+	</requires>
+        <requires>
+		<type>plugin</type>
+		<name>labredes_extras</name>
+	</requires>
+	<activate_on_install>false</activate_on_install>
+</plugin_manifest>
